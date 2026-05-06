@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KaiOsNet</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="topbar">
+    <svg viewBox="0 0 24 24" class="logo">
+      <path fill="#00ffcc" d="M12 2L2 7v10l10 5 10-5V7z"/>
+    </svg>
+    <div>KaiOsNet Control Panel</div>
+  </div>
+
+  <div class="status" id="status">SYSTEM READY</div>
+
+  <div class="menu">
+
+    <button onclick="openSettings()">Settings</button>
+
+    <button onclick="hotspotGuide()">Hotspot Guide</button>
+
+    <button onclick="networkStatus()">Network Status</button>
+
+    <button onclick="helpPanel()">Help</button>
+
+  </div>
+
+  <div class="screen" id="screen"></div>
+
+  <div class="footer">
+    KaiOsNet v1.0 | Feature Phone Optimized
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
