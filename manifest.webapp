@@ -1,0 +1,10 @@
+{
+  "name": "KaiOsNet",
+  "short_name": "KaiOsNet",
+  "description": "Neon control panel for network & hotspot guidance",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ffcc",
+  "type": "web"
+}
