@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #00ffcc;
+  font-family: monospace;
+}
+
+.app {
+  padding: 10px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.logo {
+  width: 18px;
+  height: 18px;
+}
+
+.status {
+  margin: 8px 0;
+  font-size: 11px;
+  color: lime;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+button {
+  background: #000;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  padding: 10px;
+  font-size: 11px;
+}
+
+button:active {
+  background: #00ffcc;
+  color: #000;
+}
+
+.screen {
+  margin-top: 10px;
+  font-size: 10px;
+  min-height: 60px;
+  border-top: 1px solid #00ffcc;
+  padding-top: 8px;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 9px;
+  opacity: 0.6;
+}
